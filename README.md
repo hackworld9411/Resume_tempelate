@@ -10,7 +10,7 @@
 
 ### 2. Install Dependencies:
 ```
-$ cd portfolio_template
+$ cd Resume_template
 $ npm install 
 ```
 
@@ -27,7 +27,7 @@ Under Hosting click on **Add New Site**
 Click on the **Connect with GitHub** button
 
 ### 4. Select Repository
-If not shown in the dropdown, you'll want to click near the bottom "**Configure the Fleek app on GitHub**". Configure account, then select the *portfolio_template* repository.
+If not shown in the dropdown, you'll want to click near the bottom "**Configure the Fleek app on GitHub**". Configure account, then select the *Resume_template* repository.
 
 ### 5. Configure Deploy Location
 Select *IPFS*, this should be the default selection
