@@ -39,7 +39,7 @@ code {
 .header,
 .about,
 .projects,
-.experience,
+.educations,
 .social,
 .footer {
   padding: 50px 25px 25px;
@@ -57,12 +57,12 @@ code {
 }
 
 .header img {
-  max-width: 300px;
+  max-width: 200px;
   height: auto;
 
   margin: 20px auto;
 
-  border-radius: 50%;
+  border-radius: 100%;
 }
 
 .header__content {
@@ -153,16 +153,32 @@ code {
 /* ------------------------------------------------------ */
 /* -- Education/Experience -- */
 
-.experience h2 {
+.educations h2 {
   font-size: 42px;
   margin: 25px auto;
 }
 
-.experience ul {
+.educations__lists {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.educations__list {
+  max-width: 350px;
+
+  padding: 20px;
+
+  border-radius: 8px;
+}
+
+.educations ul {
   margin: 0 0 10px 50px;
 }
 
-.experience li {
+.educations li {
   font-size: 18px;
   line-height: 130%;
   margin: 15px auto;
